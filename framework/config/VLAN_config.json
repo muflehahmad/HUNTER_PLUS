@@ -1,0 +1,31 @@
+{
+	"database" : {
+		"ip": "127.0.0.1",
+		"port":8086},
+	"vlan" : {
+		"uname" : "ansible",
+		"servers" : [
+			{
+				"ip" : "51.142.174.63",
+				"cpu" : 2,
+				"powermodel": "PMB2s"
+			},
+			{
+				"ip" : "51.142.83.54",
+				"cpu" : 2,
+				"powermodel": "PMB2s"
+			},
+			{
+				"ip" : "20.26.228.105",
+				"cpu" : 2,
+				"powermodel": "PMB2s"
+			},
+			{
+				"ip" : "51.140.205.72",
+				"cpu" : 2,
+				"powermodel": "PMB2s"
+			}
+
+		]
+	}
+}

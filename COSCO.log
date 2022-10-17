@@ -1,0 +1,145 @@
+2022-08-17 04:25:45,460 - DEBUG - Creating enviornment in :VLAN
+2022-08-17 04:32:28,114 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8086
+2022-08-17 04:32:28,120 - DEBUG - http://127.0.0.1:8086 "POST /query?q=DROP+DATABASE+%22COSCO%22 HTTP/1.1" 200 None
+2022-08-17 04:32:28,143 - DEBUG - http://127.0.0.1:8086 "POST /query?q=CREATE+DATABASE+%22COSCO%22 HTTP/1.1" 200 None
+2022-08-17 04:33:18,495 - ERROR - Host details collected from: 51.142.174.63
+2022-08-17 04:33:18,498 - ERROR - Host details collected from: 51.142.83.54
+2022-08-17 04:33:18,500 - ERROR - Host details collected from: 20.26.228.105
+2022-08-17 04:33:18,502 - ERROR - Host details collected from: 51.140.205.72
+2022-08-17 04:33:18,547 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:33:18,551 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:33:18,554 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:33:18,577 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:33:18,585 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:33:19,181 - DEBUG - Starting new HTTP connection (1): 51.142.174.63:8081
+2022-08-17 04:33:19,909 - DEBUG - http://51.142.174.63:8081 "GET /request HTTP/1.1" 200 9
+2022-08-17 04:33:19,912 - DEBUG - Response received by server from agent 51.142.174.63 : {"rc": 0}
+2022-08-17 04:33:19,912 - DEBUG - {'opcode': 'create', 'image': 'shreshthtuli/aeneas', 'host_ip': '51.142.174.63', 'name': '0_0'}
+2022-08-17 04:33:19,912 - DEBUG - Response from created container
+2022-08-17 04:33:19,913 - DEBUG - First allocation: [(0, 0)]
+2022-08-17 04:33:19,913 - DEBUG - Interval allocation time for interval 1 is 0.7355010509490967
+2022-08-17 04:38:22,420 - DEBUG - Starting new HTTP connection (1): 51.142.174.63:8081
+2022-08-17 04:38:24,659 - DEBUG - http://51.142.174.63:8081 "GET /request HTTP/1.1" 200 378
+2022-08-17 04:38:24,661 - DEBUG - Response received by server from agent 51.142.174.63 : {"time-stamp": 1660707502.8071597, "hostIP": "10.0.0.8", "stats": [{"name": "0_0", "time": 1660707503.821602, "cpu": 52.67873118811881, "memory": 1.0364295087862558, "disk": "1.29G", "read_bytes": 10330112, "write_bytes": 0, "bw_up": 0.0, "bw_down": 0.0013942718505859375, "running": true, "finished_at": "0001-01-01T00:00:00Z", "error": "", "exit_code": 0, "oom_kill": false}]}
+2022-08-17 04:38:24,661 - DEBUG - [{'measurement': 'ContainerStat', 'tags': {'host_ip': '10.0.0.8', 'container_name': '0_0'}, 'fields': {'name': '0_0', 'time': 1660707503.821602, 'cpu': 52.67873118811881, 'memory': 1.0364295087862558, 'disk': '1.29G', 'read_bytes': 10330112, 'write_bytes': 0, 'bw_up': 0.0, 'bw_down': 0.0013942718505859375, 'running': True, 'finished_at': '0001-01-01T00:00:00Z', 'error': '', 'exit_code': 0, 'oom_kill': False}, 'time': '2022-08-17T03:38:24'}]
+2022-08-17 04:38:24,680 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:24,686 - DEBUG - Starting new HTTP connection (1): 51.142.174.63:8081
+2022-08-17 04:38:24,736 - DEBUG - http://51.142.174.63:8081 "GET /request HTTP/1.1" 200 105
+2022-08-17 04:38:24,737 - DEBUG - Response received by server from agent 51.142.174.63 : {"ip": "10.0.0.8", "time-stamp": 1660707505.0710254, "cpu": 43.8, "memory": 15.9, "disk": 14143.75390625}
+2022-08-17 04:38:24,737 - DEBUG - {'measurement': 'hostStat', 'tags': {'host_ip': '10.0.0.8'}, 'fields': {'cpu': 43.8, 'memory': 15.9, 'disk': 14143.75390625}, 'time': '2022-08-17T03:38:24.737674'}
+2022-08-17 04:38:24,747 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:24,752 - DEBUG - Starting new HTTP connection (1): 51.142.83.54:8081
+2022-08-17 04:38:25,475 - DEBUG - http://51.142.83.54:8081 "GET /request HTTP/1.1" 200 69
+2022-08-17 04:38:25,477 - DEBUG - Response received by server from agent 51.142.83.54 : {"time-stamp": 1660707505.1299806, "hostIP": "10.0.0.6", "stats": []}
+2022-08-17 04:38:25,478 - DEBUG - []
+2022-08-17 04:38:25,483 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:25,489 - DEBUG - Starting new HTTP connection (1): 51.142.83.54:8081
+2022-08-17 04:38:25,512 - DEBUG - http://51.142.83.54:8081 "GET /request HTTP/1.1" 200 101
+2022-08-17 04:38:25,513 - DEBUG - Response received by server from agent 51.142.83.54 : {"ip": "10.0.0.6", "time-stamp": 1660707505.85155, "cpu": 9.2, "memory": 14.3, "disk": 14141.0703125}
+2022-08-17 04:38:25,513 - DEBUG - {'measurement': 'hostStat', 'tags': {'host_ip': '10.0.0.6'}, 'fields': {'cpu': 9.2, 'memory': 14.3, 'disk': 14141.0703125}, 'time': '2022-08-17T03:38:25.513365'}
+2022-08-17 04:38:25,520 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:25,525 - DEBUG - Starting new HTTP connection (1): 20.26.228.105:8081
+2022-08-17 04:38:26,174 - DEBUG - http://20.26.228.105:8081 "GET /request HTTP/1.1" 200 69
+2022-08-17 04:38:26,174 - DEBUG - Response received by server from agent 20.26.228.105 : {"time-stamp": 1660707505.9114754, "hostIP": "10.0.0.7", "stats": []}
+2022-08-17 04:38:26,174 - DEBUG - []
+2022-08-17 04:38:26,177 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:26,180 - DEBUG - Starting new HTTP connection (1): 20.26.228.105:8081
+2022-08-17 04:38:26,215 - DEBUG - http://20.26.228.105:8081 "GET /request HTTP/1.1" 200 104
+2022-08-17 04:38:26,216 - DEBUG - Response received by server from agent 20.26.228.105 : {"ip": "10.0.0.7", "time-stamp": 1660707506.5557797, "cpu": 12.0, "memory": 14.4, "disk": 14141.0546875}
+2022-08-17 04:38:26,216 - DEBUG - {'measurement': 'hostStat', 'tags': {'host_ip': '10.0.0.7'}, 'fields': {'cpu': 12.0, 'memory': 14.4, 'disk': 14141.0546875}, 'time': '2022-08-17T03:38:26.216490'}
+2022-08-17 04:38:26,220 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:26,224 - DEBUG - Starting new HTTP connection (1): 51.140.205.72:8081
+2022-08-17 04:38:26,907 - DEBUG - http://51.140.205.72:8081 "GET /request HTTP/1.1" 200 69
+2022-08-17 04:38:26,909 - DEBUG - Response received by server from agent 51.140.205.72 : {"time-stamp": 1660707506.5981972, "hostIP": "10.0.0.7", "stats": []}
+2022-08-17 04:38:26,909 - DEBUG - []
+2022-08-17 04:38:26,914 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:26,916 - DEBUG - Starting new HTTP connection (1): 51.140.205.72:8081
+2022-08-17 04:38:26,973 - DEBUG - http://51.140.205.72:8081 "GET /request HTTP/1.1" 200 101
+2022-08-17 04:38:26,974 - DEBUG - Response received by server from agent 51.140.205.72 : {"ip": "10.0.0.7", "time-stamp": 1660707507.3117895, "cpu": 11.3, "memory": 14.1, "disk": 14141.0625}
+2022-08-17 04:38:26,974 - DEBUG - {'measurement': 'hostStat', 'tags': {'host_ip': '10.0.0.7'}, 'fields': {'cpu': 11.3, 'memory': 14.1, 'disk': 14141.0625}, 'time': '2022-08-17T03:38:26.974845'}
+2022-08-17 04:38:26,979 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:28,175 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:28,179 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:28,182 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:28,186 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:38:29,004 - DEBUG - Starting new HTTP connection (1): 51.142.174.63:8081
+2022-08-17 04:38:29,008 - DEBUG - Starting new HTTP connection (1): 20.26.228.105:8081
+2022-08-17 04:38:29,008 - DEBUG - Starting new HTTP connection (1): 51.140.205.72:8081
+2022-08-17 04:38:29,012 - DEBUG - Starting new HTTP connection (1): 51.142.83.54:8081
+2022-08-17 04:38:29,468 - DEBUG - http://51.142.83.54:8081 "GET /request HTTP/1.1" 200 9
+2022-08-17 04:38:29,470 - DEBUG - Response received by server from agent 51.142.83.54 : {"rc": 0}
+2022-08-17 04:38:29,470 - DEBUG - {'opcode': 'create', 'image': 'shreshthtuli/aeneas', 'host_ip': '51.142.83.54', 'name': '4_4'}
+2022-08-17 04:38:29,470 - DEBUG - Response from created container
+2022-08-17 04:38:29,507 - DEBUG - http://51.140.205.72:8081 "GET /request HTTP/1.1" 200 9
+2022-08-17 04:38:29,509 - DEBUG - Response received by server from agent 51.140.205.72 : {"rc": 0}
+2022-08-17 04:38:29,509 - DEBUG - {'opcode': 'create', 'image': 'shreshthtuli/pocketsphinx', 'host_ip': '51.140.205.72', 'name': '2_2'}
+2022-08-17 04:38:29,509 - DEBUG - Response from created container
+2022-08-17 04:38:29,562 - DEBUG - http://20.26.228.105:8081 "GET /request HTTP/1.1" 200 9
+2022-08-17 04:38:29,563 - DEBUG - Response received by server from agent 20.26.228.105 : {"rc": 0}
+2022-08-17 04:38:29,563 - DEBUG - {'opcode': 'create', 'image': 'shreshthtuli/aeneas', 'host_ip': '20.26.228.105', 'name': '3_3'}
+2022-08-17 04:38:29,564 - DEBUG - Response from created container
+2022-08-17 04:38:29,579 - DEBUG - http://51.142.174.63:8081 "GET /request HTTP/1.1" 200 9
+2022-08-17 04:38:29,581 - DEBUG - Response received by server from agent 51.142.174.63 : {"rc": 0}
+2022-08-17 04:38:29,581 - DEBUG - {'opcode': 'create', 'image': 'shreshthtuli/yolo', 'host_ip': '51.142.174.63', 'name': '1_1'}
+2022-08-17 04:38:29,581 - DEBUG - Response from created container
+2022-08-17 04:38:29,586 - DEBUG - Decision: [(1, 0), (2, 3), (3, 2), (4, 1)]
+2022-08-17 04:38:29,586 - DEBUG - Interval allocation time for interval 2 is 0.5933237075805664
+2022-08-17 04:43:32,184 - DEBUG - Starting new HTTP connection (1): 51.142.174.63:8081
+2022-08-17 04:43:35,334 - DEBUG - http://51.142.174.63:8081 "GET /request HTTP/1.1" 200 648
+2022-08-17 04:43:35,335 - DEBUG - Response received by server from agent 51.142.174.63 : {"time-stamp": 1660707812.5547323, "hostIP": "10.0.0.8", "stats": [{"name": "1_1", "time": 1660707813.5685499, "cpu": 50.45048798994974, "memory": 25.99954898974697, "disk": "767M", "read_bytes": 331427840, "write_bytes": 2609152, "bw_up": 0.0, "bw_down": 0.00089263916015625, "running": true, "finished_at": "0001-01-01T00:00:00Z", "error": "", "exit_code": 0, "oom_kill": false}, {"name": "0_0", "time": 1660707815.4400985, "cpu": 0.0, "memory": 0.0, "disk": "0M", "read_bytes": 0, "write_bytes": 0, "bw_up": 0.0, "bw_down": 0.0, "running": false, "finished_at": "2022-08-17T03:40:13.774022871Z", "error": "", "exit_code": 0, "oom_kill": false}]}
+2022-08-17 04:43:35,335 - DEBUG - [{'measurement': 'ContainerStat', 'tags': {'host_ip': '10.0.0.8', 'container_name': '1_1'}, 'fields': {'name': '1_1', 'time': 1660707813.5685499, 'cpu': 50.45048798994974, 'memory': 25.99954898974697, 'disk': '767M', 'read_bytes': 331427840, 'write_bytes': 2609152, 'bw_up': 0.0, 'bw_down': 0.00089263916015625, 'running': True, 'finished_at': '0001-01-01T00:00:00Z', 'error': '', 'exit_code': 0, 'oom_kill': False}, 'time': '2022-08-17T03:43:35'}, {'measurement': 'ContainerStat', 'tags': {'host_ip': '10.0.0.8', 'container_name': '0_0'}, 'fields': {'name': '0_0', 'time': 1660707815.4400985, 'cpu': 0.0, 'memory': 0.0, 'disk': '0M', 'read_bytes': 0, 'write_bytes': 0, 'bw_up': 0.0, 'bw_down': 0.0, 'running': False, 'finished_at': '2022-08-17T03:40:13.774022871Z', 'error': '', 'exit_code': 0, 'oom_kill': False}, 'time': '2022-08-17T03:43:35'}]
+2022-08-17 04:43:35,341 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:35,344 - DEBUG - Starting new HTTP connection (1): 51.142.174.63:8081
+2022-08-17 04:43:35,387 - DEBUG - http://51.142.174.63:8081 "GET /request HTTP/1.1" 200 105
+2022-08-17 04:43:35,388 - DEBUG - Response received by server from agent 51.142.174.63 : {"ip": "10.0.0.8", "time-stamp": 1660707815.7242332, "cpu": 66.5, "memory": 36.7, "disk": 14143.41796875}
+2022-08-17 04:43:35,388 - DEBUG - {'measurement': 'hostStat', 'tags': {'host_ip': '10.0.0.8'}, 'fields': {'cpu': 66.5, 'memory': 36.7, 'disk': 14143.41796875}, 'time': '2022-08-17T03:43:35.388236'}
+2022-08-17 04:43:35,393 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:35,397 - DEBUG - Starting new HTTP connection (1): 51.142.83.54:8081
+2022-08-17 04:43:37,495 - DEBUG - http://51.142.83.54:8081 "GET /request HTTP/1.1" 200 371
+2022-08-17 04:43:37,496 - DEBUG - Response received by server from agent 51.142.83.54 : {"time-stamp": 1660707815.771174, "hostIP": "10.0.0.6", "stats": [{"name": "4_4", "time": 1660707816.7928963, "cpu": 53.7701741, "memory": 1.1207715263235278, "disk": "1.29G", "read_bytes": 10330112, "write_bytes": 0, "bw_up": 0.0, "bw_down": 0.0013942718505859375, "running": true, "finished_at": "0001-01-01T00:00:00Z", "error": "", "exit_code": 0, "oom_kill": false}]}
+2022-08-17 04:43:37,496 - DEBUG - [{'measurement': 'ContainerStat', 'tags': {'host_ip': '10.0.0.6', 'container_name': '4_4'}, 'fields': {'name': '4_4', 'time': 1660707816.7928963, 'cpu': 53.7701741, 'memory': 1.1207715263235278, 'disk': '1.29G', 'read_bytes': 10330112, 'write_bytes': 0, 'bw_up': 0.0, 'bw_down': 0.0013942718505859375, 'running': True, 'finished_at': '0001-01-01T00:00:00Z', 'error': '', 'exit_code': 0, 'oom_kill': False}, 'time': '2022-08-17T03:43:37'}]
+2022-08-17 04:43:37,501 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:37,503 - DEBUG - Starting new HTTP connection (1): 51.142.83.54:8081
+2022-08-17 04:43:37,543 - DEBUG - http://51.142.83.54:8081 "GET /request HTTP/1.1" 200 104
+2022-08-17 04:43:37,544 - DEBUG - Response received by server from agent 51.142.83.54 : {"ip": "10.0.0.6", "time-stamp": 1660707817.8841617, "cpu": 53.7, "memory": 16.0, "disk": 14142.7578125}
+2022-08-17 04:43:37,545 - DEBUG - {'measurement': 'hostStat', 'tags': {'host_ip': '10.0.0.6'}, 'fields': {'cpu': 53.7, 'memory': 16.0, 'disk': 14142.7578125}, 'time': '2022-08-17T03:43:37.545808'}
+2022-08-17 04:43:37,548 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:37,551 - DEBUG - Starting new HTTP connection (1): 20.26.228.105:8081
+2022-08-17 04:43:40,151 - DEBUG - http://20.26.228.105:8081 "GET /request HTTP/1.1" 200 379
+2022-08-17 04:43:40,153 - DEBUG - Response received by server from agent 20.26.228.105 : {"time-stamp": 1660707817.9429426, "hostIP": "10.0.0.7", "stats": [{"name": "3_3", "time": 1660707818.9615202, "cpu": 54.12003207070707, "memory": 1.3302828850379684, "disk": "1.29G", "read_bytes": 10330112, "write_bytes": 0, "bw_up": 0.0, "bw_down": 0.0013942718505859375, "running": true, "finished_at": "0001-01-01T00:00:00Z", "error": "", "exit_code": 0, "oom_kill": false}]}
+2022-08-17 04:43:40,153 - DEBUG - [{'measurement': 'ContainerStat', 'tags': {'host_ip': '10.0.0.7', 'container_name': '3_3'}, 'fields': {'name': '3_3', 'time': 1660707818.9615202, 'cpu': 54.12003207070707, 'memory': 1.3302828850379684, 'disk': '1.29G', 'read_bytes': 10330112, 'write_bytes': 0, 'bw_up': 0.0, 'bw_down': 0.0013942718505859375, 'running': True, 'finished_at': '0001-01-01T00:00:00Z', 'error': '', 'exit_code': 0, 'oom_kill': False}, 'time': '2022-08-17T03:43:40'}]
+2022-08-17 04:43:40,166 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:40,172 - DEBUG - Starting new HTTP connection (1): 20.26.228.105:8081
+2022-08-17 04:43:40,212 - DEBUG - http://20.26.228.105:8081 "GET /request HTTP/1.1" 200 105
+2022-08-17 04:43:40,213 - DEBUG - Response received by server from agent 20.26.228.105 : {"ip": "10.0.0.7", "time-stamp": 1660707820.5539367, "cpu": 54.0, "memory": 16.0, "disk": 14142.56640625}
+2022-08-17 04:43:40,213 - DEBUG - {'measurement': 'hostStat', 'tags': {'host_ip': '10.0.0.7'}, 'fields': {'cpu': 54.0, 'memory': 16.0, 'disk': 14142.56640625}, 'time': '2022-08-17T03:43:40.213608'}
+2022-08-17 04:43:40,217 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:40,221 - DEBUG - Starting new HTTP connection (1): 51.140.205.72:8081
+2022-08-17 04:43:42,607 - DEBUG - http://51.140.205.72:8081 "GET /request HTTP/1.1" 200 377
+2022-08-17 04:43:42,608 - DEBUG - Response received by server from agent 51.140.205.72 : {"time-stamp": 1660707820.6118004, "hostIP": "10.0.0.7", "stats": [{"name": "2_2", "time": 1660707821.6291647, "cpu": 49.69600698019802, "memory": 2.674570273655935, "disk": "1.17G", "read_bytes": 8163328, "write_bytes": 0, "bw_up": 0.0, "bw_down": 0.0013942718505859375, "running": true, "finished_at": "0001-01-01T00:00:00Z", "error": "", "exit_code": 0, "oom_kill": false}]}
+2022-08-17 04:43:42,609 - DEBUG - [{'measurement': 'ContainerStat', 'tags': {'host_ip': '10.0.0.7', 'container_name': '2_2'}, 'fields': {'name': '2_2', 'time': 1660707821.6291647, 'cpu': 49.69600698019802, 'memory': 2.674570273655935, 'disk': '1.17G', 'read_bytes': 8163328, 'write_bytes': 0, 'bw_up': 0.0, 'bw_down': 0.0013942718505859375, 'running': True, 'finished_at': '0001-01-01T00:00:00Z', 'error': '', 'exit_code': 0, 'oom_kill': False}, 'time': '2022-08-17T03:43:42'}]
+2022-08-17 04:43:42,618 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:42,627 - DEBUG - Starting new HTTP connection (1): 51.140.205.72:8081
+2022-08-17 04:43:42,656 - DEBUG - http://51.140.205.72:8081 "GET /request HTTP/1.1" 200 105
+2022-08-17 04:43:42,657 - DEBUG - Response received by server from agent 51.140.205.72 : {"ip": "10.0.0.7", "time-stamp": 1660707822.9970672, "cpu": 50.1, "memory": 17.6, "disk": 14141.27734375}
+2022-08-17 04:43:42,658 - DEBUG - {'measurement': 'hostStat', 'tags': {'host_ip': '10.0.0.7'}, 'fields': {'cpu': 50.1, 'memory': 17.6, 'disk': 14141.27734375}, 'time': '2022-08-17T03:43:42.658000'}
+2022-08-17 04:43:42,662 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:43,295 - DEBUG - Starting new HTTP connection (1): 51.142.174.63:8081
+2022-08-17 04:43:43,360 - DEBUG - http://51.142.174.63:8081 "GET /request HTTP/1.1" 200 9
+2022-08-17 04:43:43,361 - DEBUG - Response received by server from agent 51.142.174.63 : {"rc": 0}
+2022-08-17 04:43:43,361 - DEBUG - {'opcode': 'delete', 'image': 'shreshthtuli/aeneas', 'host_ip': '51.142.174.63', 'name': '0_0'}
+2022-08-17 04:43:43,361 - DEBUG - Response from deleted container
+2022-08-17 04:43:43,367 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:43,372 - DEBUG - http://127.0.0.1:8086 "POST /write?db=COSCO HTTP/1.1" 204 0
+2022-08-17 04:43:44,588 - DEBUG - Starting new HTTP connection (1): 51.142.83.54:8081
+2022-08-17 04:43:44,589 - DEBUG - Starting new HTTP connection (1): 51.142.174.63:8081
+2022-08-17 04:43:45,266 - DEBUG - http://51.142.83.54:8081 "GET /request HTTP/1.1" 200 9
+2022-08-17 04:43:45,267 - DEBUG - http://51.142.174.63:8081 "GET /request HTTP/1.1" 200 9
+2022-08-17 04:43:45,268 - DEBUG - Response received by server from agent 51.142.83.54 : {"rc": 0}
+2022-08-17 04:43:45,268 - DEBUG - Response received by server from agent 51.142.174.63 : {"rc": 0}
+2022-08-17 04:43:45,268 - DEBUG - {'opcode': 'create', 'image': 'shreshthtuli/pocketsphinx', 'host_ip': '51.142.83.54', 'name': '5_0'}
+2022-08-17 04:43:45,269 - DEBUG - {'opcode': 'create', 'image': 'shreshthtuli/aeneas', 'host_ip': '51.142.174.63', 'name': '6_5'}
+2022-08-17 04:43:45,269 - DEBUG - Response from created container
+2022-08-17 04:43:45,270 - DEBUG - Response from created container
+2022-08-17 04:43:45,272 - DEBUG - Decision: [(0, 1), (1, 3), (3, 1), (5, 0)]
+2022-08-17 04:43:45,272 - DEBUG - Interval allocation time for interval 3 is 0.6910514831542969
